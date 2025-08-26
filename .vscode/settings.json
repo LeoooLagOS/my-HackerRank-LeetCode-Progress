@@ -1,0 +1,17 @@
+{
+  "editor.fontFamily": "'Lucida Sans Unicode', 'Cascadia Code', Consolas, monospace",
+  "editor.fontSize": 14,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "files.autoSave": "onFocusChange",
+  "terminal.integrated.fontFamily": "'Cascadia Code'",
+  "terminal.integrated.fontSize": 13,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.executorMap": {
+    "python": "python -u",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  }
+}

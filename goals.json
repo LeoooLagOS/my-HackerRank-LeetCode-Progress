@@ -1,0 +1,20 @@
+{
+  "weekly_goal": 6,
+  "monthly_goal": 24,
+  "languages": {
+    "python": {
+      "goal": 10,
+      "completed": 1
+    },
+    "java": {
+      "goal": 10,
+      "completed": 1
+    },
+    "c": {
+      "goal": 10,
+      "completed": 1
+    }
+  },
+  "current_streak": 2,
+  "total_completed": 3
+}
