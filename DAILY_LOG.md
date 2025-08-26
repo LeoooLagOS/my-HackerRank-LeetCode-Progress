@@ -1,11 +1,11 @@
 # 📝 Daily Learning Log
 
-## 2024-12-29
+## 26 - 28 - 2025
 - ✅ Completed HackerRank Java: Welcome to Java
 - ✅ Added solution to repository
 - 🔧 Configured VS Code for Java development
 
-## 2024-12-28
+## 25 - 28 - 2025
 - ✅ Completed HackerRank Python: Hello World
 - ✅ Created repository structure
 - 🔧 Initial VS Code setup
