@@ -1,20 +1,59 @@
 {
   "weekly_goal": 6,
   "monthly_goal": 24,
+  "yearly_goal": 150,
   "languages": {
     "python": {
-      "goal": 10,
-      "completed": 1
+      "goal": 50,
+      "completed": 1,
+      "progress": 2.0,
+      "last_practice": "27-08-2025"
     },
     "java": {
-      "goal": 10,
-      "completed": 1
+      "goal": 50,
+      "completed": 1,
+      "progress": 2.0,
+      "last_practice": "26-08-2025"
     },
     "c": {
-      "goal": 10,
-      "completed": 1
+      "goal": 30,
+      "completed": 1,
+      "progress": 3.3,
+      "last_practice": "26-08-2025"
     }
   },
-  "current_streak": 2,
-  "total_completed": 3
+  "platforms": {
+    "hackerrank": {
+      "goal": 100,
+      "completed": 3,
+      "progress": 3.0
+    },
+    "leetcode": {
+      "goal": 50,
+      "completed": 0,
+      "progress": 0.0
+    }
+  },
+  "streaks": {
+    "current": 2,
+    "longest": 2,
+    "last_activity": "27-08-2025"
+  },
+  "metrics": {
+    "total_time": "45m",
+    "average_time_per_problem": "15m",
+    "preferred_language": "Python"
+  },
+  "recent_activity": [
+    {
+      "date": "26-08-2025",
+      "problem": "Welcome to Java",
+      "language": "Java",
+      "platform": "HackerRank",
+      "difficulty": "Easy",
+      "time_taken": "10m"
+    }
+  ],
+  "start_date": "25-08-2025",
+  "last_updated": "27-08-2025"
 }
