@@ -24,7 +24,7 @@ Welcome to my programming solutions repository!
 
 ```bash
 # Clone the repository
-git clone https://github.com/LeooolagOS/my-HackerRank-LeetCode-Progress.git
+git clone https://github.com/LeoooLagOS/my-HackerRank-LeetCode-Progress.git
 
 # Navigate to the project
 cd my-HackerRank-LeetCode-Progress
@@ -119,7 +119,7 @@ my-HackerRank-LeetCode-Progress/
 python3 scripts/generate-stats.py
 ```
 
-## 📈 Goals for 2024
+## 📈 Goals for 2026
 
 - [ ] Solve 300+ coding problems
 - [ ] Master Python algorithms and data structures
@@ -135,9 +135,10 @@ This repository tracks my journey to becoming a better programmer through consis
 
 *"The only way to learn to code is to code. Daily."* 🚀
 
-**Connect with me:** [GitHub](https://github.com/LeooolagOS) | [LinkedIn](https://linkedin.com/in/yourprofile) | [HackerRank](https://www.hackerrank.com/yourprofile)
+**Connect with me:** [GitHub](https://github.com/LeooolagOS) | [LinkedIn](https://www.linkedin.com/in/leonardo-lagos) 
 
 ---
+*Last Updated: 2025-08-27
+*Total Coding Days: 2* 🎯
 
-*Last Updated: $(date +%Y-%m-%d)*  
-*Total Coding Days: $(python3 -c "import json; print(json.load(open('goals.json'))['streaks']['current'])" 2>/dev/null || echo "2")* 🎯
+> **Pro Tip**: Run `./scripts/update-readme.sh` to update these stats automatically!
