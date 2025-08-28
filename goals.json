@@ -5,7 +5,7 @@
   "languages": {
     "python": {
       "goal": 50,
-      "completed": 1,
+      "completed": 2,
       "progress": 2.0,
       "last_practice": "27-08-2025"
     },
@@ -39,7 +39,7 @@
     "longest": 2,
     "last_activity": "27-08-2025"
   },
-  "total_completed": 3,
+  "total_completed": 4,
   "metrics": {
     "total_time": "45m",
     "average_time_per_problem": "15m",
