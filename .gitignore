@@ -1,1 +1,7 @@
 *.class
+echo "# C/C++ compiled executables" >> .gitignore
+echo "*.exe" >> .gitignore
+echo "*.out" >> .gitignore  
+echo "*.o" >> .gitignore
+echo "*.obj" >> .gitignore
+echo "*.bin" >> .gitignore
