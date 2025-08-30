@@ -194,4 +194,4 @@ C Focus: 32 problems
 
 Weeks Completed: 16 weeks (4 months)
 
-Total Practice Hours: ~192 hours (12 hours/week)
+Total Practice Hours: ~192 hours (12 hours/week)| Fri | Java | Java Stdin and Stdout I | HackerRank | Easy | ◻ | [15m](hackerrank/java/java-stdin-stdout-I.java) |
