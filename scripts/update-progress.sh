@@ -48,10 +48,10 @@ if [ ! -f "PROGRESS.md" ]; then
 fi
 
 # Update PROGRESS.md
-if grep -q "| $CURRENT_DAY | $LANGUAGE | $PROBLEM_NAME |" PROGRESS.md; then
+if grep -q "|\s*\*\*$CURRENT_DAY\*\*\s*|\s*$LANGUAGE\s*|\s*$PROBLEM_NAME\s*|" PROGRESS.md; then
     # Create solution file path
     SOLUTION_FILE="${LANGUAGE,,}/${PROBLEM_NAME// /-}.${LANGUAGE,,}"
-   sed -i "s/| $CURRENT_DAY | $LANGUAGE | $PROBLEM_NAME |.*|/| $CURRENT_DAY | $LANGUAGE | $PROBLEM_NAME | $PLATFORM | $DIFFICULTY | ✅ | [$TIME_TAKEN](./$SOLUTION_FILE) |/" PROGRESS.md
+    sed -i "s/|\s*\*\*$CURRENT_DAY\*\*\s*|\s*$LANGUAGE\s*|\s*$PROBLEM_NAME\s*|.*|/| **$CURRENT_DAY** | $LANGUAGE | $PROBLEM_NAME | $PLATFORM | $DIFFICULTY | ✅ | [$TIME_TAKEN](./$SOLUTION_FILE) |/" PROGRESS.md
     echo -e "${GREEN}✅ Updated PROGRESS.md${NC}"
 else
     echo -e "${RED}❌ Error: Problem '$PROBLEM_NAME' not found in progress table for $CURRENT_DAY${NC}"

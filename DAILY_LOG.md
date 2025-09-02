@@ -18,3 +18,7 @@
 ## 2025-08-29
 - 📅 **Daily Summary**
 - ✅ **[21:38]** Completed Java: **Java Stdin and Stdout I** (Easy) - Time: 15m
+
+## 2025-09-01
+- 📅 **Daily Summary**
+- ✅ **[22:29]** Completed Python: **Python If-Else** (Easy) - Time: 0m

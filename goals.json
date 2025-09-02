@@ -5,8 +5,8 @@
   "languages": {
     "python": {
       "goal": 50,
-      "completed": 2,
-      "progress": 4.0,
+      "completed": 3,
+      "progress": 6.0,
       "last_practice": "27-08-2025"
     },
     "java": {
@@ -25,7 +25,7 @@
   "platforms": {
     "hackerrank": {
       "goal": 100,
-      "completed": 4,
+      "completed": 5,
       "progress": 3.0
     },
     "leetcode": {
@@ -39,14 +39,23 @@
     "longest": 2,
     "last_activity": "27-08-2025"
   },
-  "total_completed": 4,
+  "total_completed": 5,
   "metrics": {
     "total_time": "45m",
     "average_time_per_problem": "15m",
     "preferred_language": "Python",
-    "last_updated": "2025-08-29 21:38:32"
+    "last_updated": "2025-09-01 22:29:47"
   },
   "recent_activity": [
+    {
+      "date": "2025-09-01",
+      "time": "22:29:47",
+      "problem": "Python If-Else",
+      "language": "Python",
+      "platform": "HackerRank",
+      "difficulty": "Easy",
+      "time_taken": "0m"
+    },
     {
       "date": "2025-08-29",
       "time": "21:38:32",
@@ -67,7 +76,7 @@
   ],
   "start_date": "25-08-2025",
   "last_updated": "27-08-2025",
-  "current_streak": 1,
-  "last_activity": "2025-08-29",
-  "longest_streak": 1
+  "current_streak": 2,
+  "last_activity": "2025-09-01",
+  "longest_streak": 2
 }
