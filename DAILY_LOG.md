@@ -22,3 +22,7 @@
 ## 2025-09-01
 - 📅 **Daily Summary**
 - ✅ **[22:29]** Completed Python: **Python If-Else** (Easy) - Time: 0m
+
+## 2025-09-02
+- 📅 **Daily Summary**
+- ✅ **[10:04]** Completed Java: **Java If-Else** (Easy) - Time: 10m
