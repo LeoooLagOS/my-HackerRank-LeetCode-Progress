@@ -130,7 +130,7 @@ EOF
 echo -e "${GREEN}✅ Updated goals.json${NC}"
 
 # Update README with current stats
-echo -e "${YELLOW}📊 Updating README.md with current stats...${NC}"
+echo -e "${YELLOW}📊 Updating README statistics...${NC}"
 ./scripts/update-readme.sh
 
 # Git operations

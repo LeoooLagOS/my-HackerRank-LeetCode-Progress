@@ -1,59 +1,27 @@
 #!/bin/bash
-# Script to update dynamic content in README.md
+# Script to update README.md with current statistics
 
-# Colors for output
-GREEN='\033[0;32m'
-YELLOW='\033[1;33m'
-NC='\033[0m' # No Color
+echo "📊 Updating README.md with current statistics..."
 
-echo -e "${YELLOW}🔄 Updating README.md with current stats...${NC}"
-
-# Navigate to root directory (in case script is run from elsewhere)
-cd "$(dirname "$0")/.."
-
-# Get current date
+# Get current values
+TOTAL_SOLVED=$(grep -o '✅' PROGRESS.md | wc -l | tr -d ' ')
+CURRENT_STREAK=$(python3 -c "import json; print(json.load(open('goals.json'))['streaks']['current'])" 2>/dev/null || echo "1")
 CURRENT_DATE=$(date +%Y-%m-%d)
 
-# Get current streak from goals.json
-if [ -f "goals.json" ]; then
-    STREAK=$(python3 -c "
-import json
-import sys
-try:
-    with open('goals.json', 'r') as f:
-        data = json.load(f)
-    streak = data.get('streaks', {}).get('current', '2')
-    print(streak)
-except Exception as e:
-    print('2')
-    sys.exit(1)
-" 2>/dev/null)
-else
-    STREAK="2"
-fi
+# Update HackerRank progress
+PYTHON_HR_COMPLETED=$(grep -o '✅' PROGRESS.md | grep -c "Python.*HackerRank" || echo "0")
+JAVA_HR_COMPLETED=$(grep -o '✅' PROGRESS.md | grep -c "Java.*HackerRank" || echo "0")  
+C_HR_COMPLETED=$(grep -o '✅' PROGRESS.md | grep -c "C.*HackerRank" || echo "0")
 
-# Get total problems solved
-if [ -f "goals.json" ]; then
-    TOTAL_SOLVED=$(python3 -c "
-import json
-try:
-    with open('goals.json', 'r') as f:
-        data = json.load(f)
-    total = data.get('total_completed', '3')
-    print(total)
-except:
-    print('3')
-" 2>/dev/null)
-else
-    TOTAL_SOLVED="3"
-fi
+# Update README.md
+sed -i "s/Total Solved: [0-9]* problems/Total Solved: $TOTAL_SOLVED problems/g" README.md
+sed -i "s/Current Streak: [0-9]* days/Current Streak: $CURRENT_STREAK days/g" README.md
+sed -i "s/Last Updated: [0-9-]*/Last Updated: $CURRENT_DATE/g" README.md
+sed -i "s/Python: [0-9]*\/100 problems/Python: $PYTHON_HR_COMPLETED\/100 problems/g" README.md
+sed -i "s/Java: [0-9]*\/50 problems/Java: $JAVA_HR_COMPLETED\/50 problems/g" README.md
+sed -i "s/C: [0-9]*\/30 problems/C: $C_HR_COMPLETED\/30 problems/g" README.md
 
-# Update README.md with current values
-sed -i "s/Last Updated: .*/Last Updated: $CURRENT_DATE/" README.md
-sed -i "s/Total Coding Days: .*/Total Coding Days: $STREAK 🎯/" README.md
-sed -i "s/Total Solved: .*/Total Solved: $TOTAL_SOLVED problems/" README.md
-
-echo -e "${GREEN}✅ README.md updated successfully!${NC}"
-echo -e "📅 Date: $CURRENT_DATE"
-echo -e "🔥 Streak: $STREAK days"
-echo -e "📊 Total Solved: $TOTAL_SOLVED problems"
+echo "✅ README.md updated successfully!"
+echo "📊 Total Solved: $TOTAL_SOLVED problems"
+echo "🔥 Current Streak: $CURRENT_STREAK days"
+echo "📅 Last Updated: $CURRENT_DATE"
