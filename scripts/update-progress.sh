@@ -47,11 +47,14 @@ if [ ! -f "PROGRESS.md" ]; then
     exit 1
 fi
 
-# Update PROGRESS.md
+# Update PROGRESS.md - FIXED VERSION
 if grep -q "|\s*\*\*$CURRENT_DAY\*\*\s*|\s*$LANGUAGE\s*|\s*$PROBLEM_NAME\s*|" PROGRESS.md; then
     # Create solution file path
     SOLUTION_FILE="${LANGUAGE,,}/${PROBLEM_NAME// /-}.${LANGUAGE,,}"
-    sed -i "s/|\s*\*\*$CURRENT_DAY\*\*\s*|\s*$LANGUAGE\s*|\s*$PROBLEM_NAME\s*|.*|/| **$CURRENT_DAY** | $LANGUAGE | $PROBLEM_NAME | $PLATFORM | $DIFFICULTY | ✅ | [$TIME_TAKEN](./$SOLUTION_FILE) |/" PROGRESS.md
+    
+    # FIXED: Use precise pattern matching to preserve problem name and only update status/solution columns
+    sed -i "s/\(|\s*\*\*$CURRENT_DAY\*\*\s*|\s*$LANGUAGE\s*|\s*$PROBLEM_NAME\s*|[^|]*|[^|]*\)|[^|]*|[^|]*|/\1| $PLATFORM | $DIFFICULTY | ✅ | [$TIME_TAKEN](./$SOLUTION_FILE) |/" PROGRESS.md
+    
     echo -e "${GREEN}✅ Updated PROGRESS.md${NC}"
 else
     echo -e "${RED}❌ Error: Problem '$PROBLEM_NAME' not found in progress table for $CURRENT_DAY${NC}"
@@ -147,7 +150,7 @@ fi
 
 # Success message with summary
 completed_count=$(grep -o '✅' PROGRESS.md | wc -l | tr -d ' ')
-current_streak=$(python3 -c "import json; print(json.load(open('goals.json'))['streaks']['current'])" 2>/dev/null || echo "0")
+current_streak=$(python3 -c "import json; data=json.load(open('goals.json')); print(data.get('current_streak', 0))" 2>/dev/null || echo "0")
 
 echo -e "${GREEN}========================================${NC}"
 echo -e "${GREEN}🎉 Progress updated for $PROBLEM_NAME ($LANGUAGE)!${NC}"
