@@ -15,7 +15,7 @@
 
 | Day | Language | Problem | Platform | Link | Status | Solution |
 |-----|----------|---------|----------|------|--------|----------|
-| **Mon** | Python | Python If-Else | HackerRank | Easy | ✅ | [15m](./python/python-if-else.py) | [🔗](https://www.hackerrank.com/challenges/py-if-else/problem) | ⬜ | [python-if-else.py](hackerrank/python/python-if-else.py) |
+| **Mon** | Python | Python If-Else | HackerRank | Easy | ✅ | [python-if-else](./python/python-if-else.py) | [🔗](https://www.hackerrank.com/challenges/py-if-else/problem) | ⬜ | [python-if-else.py](hackerrank/python/python-if-else.py) |
 | **Tue** | Java | Java If-Else | HackerRank | Easy | ⬜ | [java-if-else.java] |
 | **Wed** | Python | Division | HackerRank | [🔗](https://www.hackerrank.com/challenges/python-division/problem) | ⬜ | [division.py](hackerrank/python/division.py) |
 | **Thu** | Java | Java Output Formatting | HackerRank | [🔗](https://www.hackerrank.com/challenges/java-output-formatting/problem) | ⬜ | [java-output-formatting.java](hackerrank/java/java-output-formatting.java) |
