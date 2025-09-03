@@ -5,9 +5,9 @@
 | Day | Language | Problem | Platform | Link | Status | Solution |
 |-----|----------|---------|----------|------|--------|----------|
 | **Mon** | Python | Hello World | HackerRank | [🔗](https://www.hackerrank.com/challenges/py-hello-world/problem) | ✅ | [hello-world.py](hackerrank/python/hello-world.py) |
-| **Tue** | Java | Welcome to Java | HackerRank | [🔗](https://www.hackerrank.com/challenges/welcome-to-java/problem) | ✅ | [welcome-to-java.java](hackerrank/java/welcome-to-java.java) |
+| **Tue** | Java | Welcome to Java | HackerRank | [🔗](https://www.hackerrank.com/challenges/welcome-to-java/problem) | ✅ | [welcome-to-java.java](hackerrank/java/welcome_to_java.java) |
 | **Wed** | Python | Arithmetic Operators | HackerRank | [🔗](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem) | ✅ | [arithmetic-operators.py](hackerrank/python/arithmetic-operators.py) |
-| **Thu** | Java | Java Stdin/Stdout I | HackerRank | [🔗](https://www.hackerrank.com/challenges/java-stdin-and-stdout-1/problem) | ✅ | [java-stdin-stdout-I.java](hackerrank/java/java-stdin-stdout-I.java) |
+| **Thu** | Java | Java Stdin/Stdout I | HackerRank | [🔗](https://www.hackerrank.com/challenges/java-stdin-and-stdout-1/problem) | ✅ | [java-stdin-stdout-I.java](hackerrank/java/java_stdin_stdout_I.java) |
 | **Fri** | C | Hello World in C | HackerRank | [🔗](https://www.hackerrank.com/challenges/hello-world-c/problem) | ✅ | [hello-world.c](hackerrank/c/hello-world.c) |
 | **Sat** | C | Playing With Characters | HackerRank | [🔗](https://www.hackerrank.com/challenges/playing-with-characters/problem) | ⬜ | [playing-with-characters.c](hackerrank/c/playing-with-characters.c) |
 
@@ -15,8 +15,8 @@
 
 | Day | Language | Problem | Platform | Link | Status | Solution |
 |-----|----------|---------|----------|------|--------|----------|
-| **Mon** | Python | Python If-Else | HackerRank | Easy | ✅ | [15m](./python/python-if-else.py) | [🔗](https://www.hackerrank.com/challenges/py-if-else/problem) | ⬜ | [python-if-else.py](hackerrank/python/python-if-else.py) |
-| **Tue** | Java | Java If-Else | HackerRank | Easy | ⬜ | [java-if-else.java] |
+| **Mon** | Python | Python If-Else | HackerRank | Easy | ✅ | [python-if-else](hackerrank/python/python-if-else.py) | [🔗](https://www.hackerrank.com/challenges/py-if-else/problem) | ⬜ | [python-if-else.py](hackerrank/python/python-if-else.py) |
+| **Tue** | Java | Java If-Else | HackerRank | Easy | ⬜ | [java-if-else.java](hackerrank/java/java_if_else.java) |
 | **Wed** | Python | Division | HackerRank | [🔗](https://www.hackerrank.com/challenges/python-division/problem) | ⬜ | [division.py](hackerrank/python/division.py) |
 | **Thu** | Java | Java Output Formatting | HackerRank | [🔗](https://www.hackerrank.com/challenges/java-output-formatting/problem) | ⬜ | [java-output-formatting.java](hackerrank/java/java-output-formatting.java) |
 | **Fri** | C | Sum & Difference of Two Numbers | HackerRank | [🔗](https://www.hackerrank.com/challenges/sum-numbers-c/problem) | ⬜ | [sum-difference.c](hackerrank/c/sum-difference.c) |
