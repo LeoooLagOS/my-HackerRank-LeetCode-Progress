@@ -17,15 +17,15 @@
     },
     "c": {
       "goal": 30,
-      "completed": 1,
-      "progress": 3.3,
+      "completed": 2,
+      "progress": 6.7,
       "last_practice": "26-08-2025"
     }
   },
   "platforms": {
     "hackerrank": {
       "goal": 100,
-      "completed": 10,
+      "completed": 11,
       "progress": 3.0
     },
     "leetcode": {
@@ -39,14 +39,23 @@
     "longest": 2,
     "last_activity": "27-08-2025"
   },
-  "total_completed": 10,
+  "total_completed": 11,
   "metrics": {
     "total_time": "45m",
     "average_time_per_problem": "15m",
     "preferred_language": "Python",
-    "last_updated": "2025-09-03 12:02:04"
+    "last_updated": "2025-09-06 01:19:28"
   },
   "recent_activity": [
+    {
+      "date": "2025-09-06",
+      "time": "01:19:28",
+      "problem": "Playing With Characters",
+      "language": "C",
+      "platform": "HackerRank",
+      "difficulty": "Easy",
+      "time_taken": "5m"
+    },
     {
       "date": "2025-09-03",
       "time": "12:02:04",
@@ -121,7 +130,7 @@
   ],
   "start_date": "25-08-2025",
   "last_updated": "27-08-2025",
-  "current_streak": 4,
-  "last_activity": "2025-09-03",
-  "longest_streak": 4
+  "current_streak": 5,
+  "last_activity": "2025-09-06",
+  "longest_streak": 5
 }
