@@ -11,8 +11,8 @@
     },
     "java": {
       "goal": 50,
-      "completed": 6,
-      "progress": 12.0,
+      "completed": 7,
+      "progress": 14.0,
       "last_practice": "26-08-2025"
     },
     "c": {
@@ -30,7 +30,7 @@
     },
     "leetcode": {
       "goal": 50,
-      "completed": 3,
+      "completed": 4,
       "progress": 0.0
     }
   },
@@ -39,14 +39,23 @@
     "longest": 2,
     "last_activity": "27-08-2025"
   },
-  "total_completed": 14,
+  "total_completed": 15,
   "metrics": {
     "total_time": "45m",
     "average_time_per_problem": "15m",
     "preferred_language": "Python",
-    "last_updated": "2025-09-10 11:50:18"
+    "last_updated": "2025-09-11 17:55:43"
   },
   "recent_activity": [
+    {
+      "date": "2025-09-11",
+      "time": "17:55:43",
+      "problem": "Reverse String",
+      "language": "Java",
+      "platform": "LeetCode",
+      "difficulty": "Easy",
+      "time_taken": "5m"
+    },
     {
       "date": "2025-09-10",
       "time": "11:50:18",
@@ -157,7 +166,7 @@
   ],
   "start_date": "25-08-2025",
   "last_updated": "27-08-2025",
-  "current_streak": 8,
-  "last_activity": "2025-09-10",
-  "longest_streak": 8
+  "current_streak": 9,
+  "last_activity": "2025-09-11",
+  "longest_streak": 9
 }
