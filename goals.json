@@ -17,15 +17,15 @@
     },
     "c": {
       "goal": 30,
-      "completed": 3,
-      "progress": 10.0,
+      "completed": 4,
+      "progress": 13.3,
       "last_practice": "26-08-2025"
     }
   },
   "platforms": {
     "hackerrank": {
       "goal": 100,
-      "completed": 12,
+      "completed": 13,
       "progress": 3.0
     },
     "leetcode": {
@@ -39,14 +39,23 @@
     "longest": 2,
     "last_activity": "27-08-2025"
   },
-  "total_completed": 16,
+  "total_completed": 17,
   "metrics": {
     "total_time": "45m",
     "average_time_per_problem": "15m",
     "preferred_language": "Python",
-    "last_updated": "2025-09-12 13:27:00"
+    "last_updated": "2025-09-12 13:40:20"
   },
   "recent_activity": [
+    {
+      "date": "2025-09-12",
+      "time": "13:40:20",
+      "problem": "Sum & Difference of Two Numbers",
+      "language": "C",
+      "platform": "HackerRank",
+      "difficulty": "Easy",
+      "time_taken": "10m"
+    },
     {
       "date": "2025-09-12",
       "time": "13:27:00",

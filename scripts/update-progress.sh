@@ -75,7 +75,7 @@ if grep "|\s*\*\*$CURRENT_DAY\*\*\s*|" PROGRESS.md | grep "|\s*$LANGUAGE\s*|" | 
     
     # This robust sed command finds the line containing all key identifiers
     # and replaces ONLY the status and solution fields.
-    sed -i "/\*\*$CURRENT_DAY\*\*.*|\s*$LANGUAGE\s*|.*|\s*$PROBLEM_NAME\s*|/ s/| \⬜\s*|.*|/| ✅ | [${TIME_TAKEN}](${SOLUTION_FILE_PATH}) |/" PROGRESS.md
+    sed -i "/\*\*$CURRENT_DAY\*\*.*|\s*$LANGUAGE\s*|.*|\s*$PROBLEM_NAME\s*|/ s#| \⬜\s*|.*|#| ✅ | [${TIME_TAKEN}](${SOLUTION_FILE_PATH}) |#" PROGRESS.md
     
     echo -e "${GREEN}✅ Updated PROGRESS.md${NC}"
 else
