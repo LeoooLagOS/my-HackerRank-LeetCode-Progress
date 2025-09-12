@@ -138,6 +138,9 @@ echo -e "${YELLOW}📊 Updating README statistics...${NC}"
 
 # Git operations
 echo -e "${YELLOW}🔗 Updating GitHub repository...${NC}"
+# Update README with current stats
+echo -e "${YELLOW}📊 Updating README statistics...${NC}"
+./scripts/update-readme.sh
 git add .
 git commit -m "progress: completed $LANGUAGE - $PROBLEM_NAME ($DIFFICULTY) in $TIME_TAKEN"
 
