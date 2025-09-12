@@ -47,8 +47,9 @@ if [ ! -f "PROGRESS.md" ]; then
     exit 1
 fi
 
-# Update PROGRESS.md - Definitive version with robust searching
-# Define the path to the solution file first
+
+# Update PROGRESS.md - Definitive version using line numbers for precision
+# Define the path to the solution file
 SOLUTION_FILE_PATH="" # Initialize empty
 if [ "$PLATFORM" == "LeetCode" ]; then
     if [ "$LANGUAGE" == "Java" ]; then
@@ -59,23 +60,24 @@ if [ "$PLATFORM" == "LeetCode" ]; then
         SOLUTION_FILE_PATH="./leetcode/python/${PROBLEM_NAME// /-}.py"
     fi
 else # Default to HackerRank
+    # (Assuming all non-LeetCode are HackerRank for now)
+    SOLUTION_FILE_PATH="./hackerrank/${LANGUAGE,,}/${PROBLEM_NAME// /-}.c"
     if [ "$LANGUAGE" == "Java" ]; then
         SOLUTION_FILE_PATH="./hackerrank/java/${PROBLEM_NAME// /}.java"
-    elif [ "$LANGUAGE" == "C" ]; then
-        SOLUTION_FILE_PATH="./hackerrank/c/${PROBLEM_NAME// /-}.c"
-    else # Default to Python
+    elif [ "$LANGUAGE" == "Python" ]; then
         SOLUTION_FILE_PATH="./hackerrank/python/${PROBLEM_NAME// /-}.py"
     fi
 fi
 
+# Find the exact line number of the unsolved problem
+LINE_NUM=$(grep -n "|\s*\*\*$CURRENT_DAY\*\*\s*|" PROGRESS.md | grep "|\s*$LANGUAGE\s*|" | grep "|\s*$PROBLEM_NAME\s*|" | grep "⬜" | cut -d: -f1)
 
-# Use a series of piped greps for a more robust search. This handles special characters better.
-# It finds the line that contains the Day, the Language, the Problem Name, AND the unsolved emoji.
-if grep "|\s*\*\*$CURRENT_DAY\*\*\s*|" PROGRESS.md | grep "|\s*$LANGUAGE\s*|" | grep "|\s*$PROBLEM_NAME\s*|" | grep -q "⬜"; then
+# Check if we found a line number
+if [ -n "$LINE_NUM" ]; then
     
-    # This robust sed command finds the line containing all key identifiers
-    # and replaces ONLY the status and solution fields.
-    sed -i "/\*\*$CURRENT_DAY\*\*.*|\s*$LANGUAGE\s*|.*|\s*$PROBLEM_NAME\s*|/ s#| \⬜\s*|.*|#| ✅ | [${TIME_TAKEN}](${SOLUTION_FILE_PATH}) |#" PROGRESS.md
+    # Use the line number to replace the status and solution on that exact line.
+    # Note the '#' delimiter to handle slashes in the file path.
+    sed -i "${LINE_NUM}s#| \⬜\s*|.*|#| ✅ | [${TIME_TAKEN}](${SOLUTION_FILE_PATH}) |#" PROGRESS.md
     
     echo -e "${GREEN}✅ Updated PROGRESS.md${NC}"
 else
@@ -83,7 +85,6 @@ else
     echo -e "${YELLOW}💡 Please check spelling, date, status, or that the problem is in PROGRESS.md${NC}"
     exit 1
 fi
-
 
 # Update DAILY_LOG.md
 if ! grep -q "## $CURRENT_DATE" DAILY_LOG.md; then

@@ -19,7 +19,7 @@
 | **Tue** | Java | Java If-Else | HackerRank | Easy | ⬜ | [java-if-else.java](hackerrank/java/java_if_else.java) |
 | **Wed** | Python | Division | HackerRank | [🔗](https://www.hackerrank.com/challenges/python-division/problem) | ⬜ | [division.py](hackerrank/python/division.py) |
 | **Thu** | Java | Java Output Formatting | HackerRank | [🔗](https://www.hackerrank.com/challenges/java-output-formatting/problem) | ⬜ | [java-output-formatting.java](hackerrank/java/java-output-formatting.java) |
-| **Fri** | C | Sum & Difference of Two Numbers | HackerRank | [🔗](https://www.hackerrank.com/challenges/sum-numbers-c/problem) | ⬜ | [sum-difference.c](hackerrank/c/sum-difference.c) |
+| **Fri** | C | Sum & Difference of Two Numbers | HackerRank | [🔗](https://www.hackerrank.com/challenges/sum-numbers-c/problem) | ✅ | [10m](./hackerrank/c/Sum-| ⬜ | [sum-difference.c](hackerrank/c/sum-difference.c) |-Difference-of-Two-Numbers.c) |
 | **Sat** | C | Functions in C | HackerRank | [🔗](https://www.hackerrank.com/challenges/functions-in-c/problem) | ⬜ | [functions-in-c.c](hackerrank/c/functions-in-c.c) |
 
 ## 🗓️ **WEEK 3 - LEETCODE INTRODUCTION**

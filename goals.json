@@ -17,15 +17,15 @@
     },
     "c": {
       "goal": 30,
-      "completed": 4,
-      "progress": 13.3,
+      "completed": 5,
+      "progress": 16.7,
       "last_practice": "26-08-2025"
     }
   },
   "platforms": {
     "hackerrank": {
       "goal": 100,
-      "completed": 13,
+      "completed": 14,
       "progress": 3.0
     },
     "leetcode": {
@@ -39,14 +39,23 @@
     "longest": 2,
     "last_activity": "27-08-2025"
   },
-  "total_completed": 17,
+  "total_completed": 18,
   "metrics": {
     "total_time": "45m",
     "average_time_per_problem": "15m",
     "preferred_language": "Python",
-    "last_updated": "2025-09-12 13:40:20"
+    "last_updated": "2025-09-12 13:52:18"
   },
   "recent_activity": [
+    {
+      "date": "2025-09-12",
+      "time": "13:52:18",
+      "problem": "Sum & Difference of Two Numbers",
+      "language": "C",
+      "platform": "HackerRank",
+      "difficulty": "Easy",
+      "time_taken": "10m"
+    },
     {
       "date": "2025-09-12",
       "time": "13:40:20",
@@ -172,14 +181,6 @@
       "platform": "HackerRank",
       "difficulty": "Easy",
       "time_taken": "15m"
-    },
-    {
-      "date": "26-08-2025",
-      "problem": "Welcome to Java",
-      "language": "Java",
-      "platform": "HackerRank",
-      "difficulty": "Easy",
-      "time_taken": "10m"
     }
   ],
   "start_date": "25-08-2025",
