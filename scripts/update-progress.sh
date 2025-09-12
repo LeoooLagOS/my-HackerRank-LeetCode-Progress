@@ -47,20 +47,43 @@ if [ ! -f "PROGRESS.md" ]; then
     exit 1
 fi
 
-# Update PROGRESS.md - FIXED VERSION
-if grep -q "|\s*\*\*$CURRENT_DAY\*\*\s*|\s*$LANGUAGE\s*|\s*$PROBLEM_NAME\s*|" PROGRESS.md; then
-    # Create solution file path
-    SOLUTION_FILE="${LANGUAGE,,}/${PROBLEM_NAME// /-}.${LANGUAGE,,}"
+# Update PROGRESS.md - Definitive version with robust searching
+# Define the path to the solution file first
+SOLUTION_FILE_PATH="" # Initialize empty
+if [ "$PLATFORM" == "LeetCode" ]; then
+    if [ "$LANGUAGE" == "Java" ]; then
+        SOLUTION_FILE_PATH="./leetcode/java/${PROBLEM_NAME// /}.java"
+    elif [ "$LANGUAGE" == "C" ]; then
+        SOLUTION_FILE_PATH="./leetcode/c/${PROBLEM_NAME// /-}.c"
+    else # Default to Python
+        SOLUTION_FILE_PATH="./leetcode/python/${PROBLEM_NAME// /-}.py"
+    fi
+else # Default to HackerRank
+    if [ "$LANGUAGE" == "Java" ]; then
+        SOLUTION_FILE_PATH="./hackerrank/java/${PROBLEM_NAME// /}.java"
+    elif [ "$LANGUAGE" == "C" ]; then
+        SOLUTION_FILE_PATH="./hackerrank/c/${PROBLEM_NAME// /-}.c"
+    else # Default to Python
+        SOLUTION_FILE_PATH="./hackerrank/python/${PROBLEM_NAME// /-}.py"
+    fi
+fi
+
+
+# Use a series of piped greps for a more robust search. This handles special characters better.
+# It finds the line that contains the Day, the Language, the Problem Name, AND the unsolved emoji.
+if grep "|\s*\*\*$CURRENT_DAY\*\*\s*|" PROGRESS.md | grep "|\s*$LANGUAGE\s*|" | grep "|\s*$PROBLEM_NAME\s*|" | grep -q "⬜"; then
     
-    # FIXED: Use precise pattern matching to preserve problem name and only update status/solution columns
-    sed -i "s/\(|\s*\*\*$CURRENT_DAY\*\*\s*|\s*$LANGUAGE\s*|\s*$PROBLEM_NAME\s*|[^|]*|[^|]*\)|[^|]*|[^|]*|/\1| $PLATFORM | $DIFFICULTY | ✅ | [$TIME_TAKEN](./$SOLUTION_FILE) |/" PROGRESS.md
+    # This robust sed command finds the line containing all key identifiers
+    # and replaces ONLY the status and solution fields.
+    sed -i "/\*\*$CURRENT_DAY\*\*.*|\s*$LANGUAGE\s*|.*|\s*$PROBLEM_NAME\s*|/ s/| \⬜\s*|.*|/| ✅ | [${TIME_TAKEN}](${SOLUTION_FILE_PATH}) |/" PROGRESS.md
     
     echo -e "${GREEN}✅ Updated PROGRESS.md${NC}"
 else
-    echo -e "${RED}❌ Error: Problem '$PROBLEM_NAME' not found in progress table for $CURRENT_DAY${NC}"
-    echo -e "${YELLOW}💡 Please add it to PROGRESS.md first or check the spelling${NC}"
+    echo -e "${RED}❌ Error: Unsolved problem matching your criteria was not found.${NC}"
+    echo -e "${YELLOW}💡 Please check spelling, date, status, or that the problem is in PROGRESS.md${NC}"
     exit 1
 fi
+
 
 # Update DAILY_LOG.md
 if ! grep -q "## $CURRENT_DATE" DAILY_LOG.md; then
@@ -132,15 +155,12 @@ EOF
 
 echo -e "${GREEN}✅ Updated goals.json${NC}"
 
-# Update README with current stats
-echo -e "${YELLOW}📊 Updating README statistics...${NC}"
-./scripts/update-readme.sh
-
 # Git operations
 echo -e "${YELLOW}🔗 Updating GitHub repository...${NC}"
 # Update README with current stats
 echo -e "${YELLOW}📊 Updating README statistics...${NC}"
 ./scripts/update-readme.sh
+
 git add .
 git commit -m "progress: completed $LANGUAGE - $PROBLEM_NAME ($DIFFICULTY) in $TIME_TAKEN"
 

@@ -53,3 +53,7 @@
 ## 2025-09-11
 - 📅 **Daily Summary**
 - ✅ **[17:55]** Completed Java: **Reverse String** (Easy) - Time: 5m
+
+## 2025-09-12
+- 📅 **Daily Summary**
+- ✅ **[13:27]** Completed C: **Sum & Difference of Two Numbers** (Easy) - Time: 10m
