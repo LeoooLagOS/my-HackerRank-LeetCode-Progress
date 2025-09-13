@@ -5,8 +5,8 @@
   "languages": {
     "python": {
       "goal": 50,
-      "completed": 8,
-      "progress": 16.0,
+      "completed": 9,
+      "progress": 18.0,
       "last_practice": "27-08-2025"
     },
     "java": {
@@ -25,7 +25,7 @@
   "platforms": {
     "hackerrank": {
       "goal": 100,
-      "completed": 20,
+      "completed": 21,
       "progress": 3.0
     },
     "leetcode": {
@@ -39,14 +39,23 @@
     "longest": 2,
     "last_activity": "27-08-2025"
   },
-  "total_completed": 24,
+  "total_completed": 25,
   "metrics": {
     "total_time": "45m",
     "average_time_per_problem": "15m",
     "preferred_language": "Python",
-    "last_updated": "2025-09-13 09:28:52"
+    "last_updated": "2025-09-13 09:34:31"
   },
   "recent_activity": [
+    {
+      "date": "2025-09-13",
+      "time": "09:34:31",
+      "problem": "Division",
+      "language": "Python",
+      "platform": "HackerRank",
+      "difficulty": "Easy",
+      "time_taken": "10m"
+    },
     {
       "date": "2025-09-13",
       "time": "09:28:52",
@@ -172,15 +181,6 @@
       "platform": "HackerRank",
       "difficulty": "Easy",
       "time_taken": "5m"
-    },
-    {
-      "date": "2025-09-03",
-      "time": "12:02:04",
-      "problem": "Division",
-      "language": "Python",
-      "platform": "HackerRank",
-      "difficulty": "Easy",
-      "time_taken": "10m"
     }
   ],
   "start_date": "25-08-2025",
