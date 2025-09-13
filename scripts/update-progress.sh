@@ -77,7 +77,7 @@ if [ -n "$LINE_NUM" ]; then
     
     # Use the line number to replace the status and solution on that exact line.
     # Note the '#' delimiter to handle slashes in the file path.
-    sed -i "${LINE_NUM}s#| \⬜\s*|.*|#| ✅ | [${TIME_TAKEN}](${SOLUTION_FILE_PATH}) |#" PROGRESS.md
+   sed -i "${LINE_NUM}s#| \⬜\s*|.*|#| ✅ | [Solution](${SOLUTION_FILE_PATH}) |#" PROGRESS.md
     
     echo -e "${GREEN}✅ Updated PROGRESS.md${NC}"
 else
