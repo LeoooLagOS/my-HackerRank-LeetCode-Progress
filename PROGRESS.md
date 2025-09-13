@@ -9,7 +9,7 @@
 | **Wed** | Python | Arithmetic Operators | HackerRank | [🔗](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem) | ✅ | [arithmetic-operators.py](hackerrank/python/arithmetic-operators.py) |
 | **Thu** | Java | Java Stdin/Stdout I | HackerRank | [🔗](https://www.hackerrank.com/challenges/java-stdin-and-stdout-1/problem) | ✅ | [java-stdin-stdout-I.java](hackerrank/java/java_stdin_stdout_I.java) |
 | **Fri** | C | Hello World in C | HackerRank | [🔗](https://www.hackerrank.com/challenges/hello-world-c/problem) | ✅ | [hello-world.c](hackerrank/c/hello-world.c) |
-| **Sat** | C | Playing With Characters | HackerRank | [🔗](https://www.hackerrank.com/challenges/playing-with-characters/problem) | ⬜ | [playing-with-characters.c](hackerrank/c/playing-with-characters.c) |
+| **Sat** | C | Playing With Characters | HackerRank | [🔗](https://www.hackerrank.com/challenges/playing-with-characters/problem) | ✅ | [Solution](./hackerrank/c/Playing-With-Characters.c) |
 
 ## 🗓️ **WEEK 2 - BASIC STRUCTURES**
 

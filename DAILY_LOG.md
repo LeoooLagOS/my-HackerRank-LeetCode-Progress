@@ -75,3 +75,4 @@
 - ✅ **[09:37]** Completed HackerRank: **Java Output Formatting** (10m) - Time: 0m
 - ✅ **[09:37]** Completed Java: **Two Sum** (Easy) - Time: 10m
 - ✅ **[09:37]** Completed Java: **Reverse String** (Easy) - Time: 10m
+- ✅ **[09:43]** Completed C: **Playing With Characters** (Easy) - Time: 10m
