@@ -11,8 +11,8 @@
     },
     "java": {
       "goal": 50,
-      "completed": 8,
-      "progress": 16.0,
+      "completed": 9,
+      "progress": 18.0,
       "last_practice": "26-08-2025"
     },
     "c": {
@@ -30,7 +30,7 @@
     },
     "leetcode": {
       "goal": 50,
-      "completed": 6,
+      "completed": 7,
       "progress": 0.0
     }
   },
@@ -39,14 +39,23 @@
     "longest": 2,
     "last_activity": "27-08-2025"
   },
-  "total_completed": 28,
+  "total_completed": 29,
   "metrics": {
     "total_time": "45m",
     "average_time_per_problem": "15m",
     "preferred_language": "Python",
-    "last_updated": "2025-09-13 09:36:30"
+    "last_updated": "2025-09-13 09:37:41"
   },
   "recent_activity": [
+    {
+      "date": "2025-09-13",
+      "time": "09:37:41",
+      "problem": "Two Sum",
+      "language": "Java",
+      "platform": "LeetCode",
+      "difficulty": "Easy",
+      "time_taken": "10m"
+    },
     {
       "date": "2025-09-13",
       "time": "09:36:30",
@@ -169,15 +178,6 @@
       "time": "17:55:43",
       "problem": "Reverse String",
       "language": "Java",
-      "platform": "LeetCode",
-      "difficulty": "Easy",
-      "time_taken": "5m"
-    },
-    {
-      "date": "2025-09-10",
-      "time": "11:50:18",
-      "problem": "Reverse String",
-      "language": "Python",
       "platform": "LeetCode",
       "difficulty": "Easy",
       "time_taken": "5m"
