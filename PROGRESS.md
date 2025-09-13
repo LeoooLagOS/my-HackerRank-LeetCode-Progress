@@ -20,7 +20,7 @@
 | **Wed** | Python | Division | HackerRank | [🔗](https://www.hackerrank.com/challenges/python-division/problem) | ✅ | [Solution](./hackerrank/python/Division.py) |
 | **Thu** | Java | Java Output Formatting | HackerRank | [🔗](https://www.hackerrank.com/challenges/java-output-formatting/problem) | ✅ | [Solution](./hackerrank/hackerrank/Java-Output-Formatting.c) |
 | **Fri** | C | Sum & Difference of Two Numbers | HackerRank | [🔗](https://www.hackerrank.com/challenges/sum-numbers-c/problem) | ✅ | [sum-difference.c](hackerrank/c/sum-difference.c) |
-| **Sat** | C | Functions in C | HackerRank | [🔗](https://www.hackerrank.com/challenges/functions-in-c/problem) | ⬜ | [functions-in-c.c](hackerrank/c/functions-in-c.c) |
+| **Sat** | C | Functions in C | HackerRank | [🔗](https://www.hackerrank.com/challenges/functions-in-c/problem) | ✅ | [Solution](./hackerrank/c/Functions-in-C.c) |
 
 ## 🗓️ **WEEK 3 - LEETCODE INTRODUCTION**
 
