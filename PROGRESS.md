@@ -29,7 +29,7 @@
 | **Mon** | Python | Two Sum | LeetCode | [🔗](https://leetcode.com/problems/two-sum/) | Easy | ✅ | [Solution](./leetcode/python/Two-Sum.py) |
 | **Tue** | Java | Two Sum | LeetCode | [🔗](https://leetcode.com/problems/two-sum/) | Easy | ✅ | [Solution](./leetcode/java/TwoSum.java) |
 | **Wed** | Python | Reverse String | LeetCode | [🔗](https://leetcode.com/problems/reverse-string/) | Easy | ✅ | [Solution](./leetcode/python/Reverse-String.py) |
-| **Thu** | Java | Reverse String | LeetCode | [🔗](https://leetcode.com/problems/reverse-string/) | Easy | ⬜ | [reverse-string.java](leetcode/java/reverse-string.java) |
+| **Thu** | Java | Reverse String | LeetCode | [🔗](https://leetcode.com/problems/reverse-string/) | Easy | ✅ | [Solution](./leetcode/java/ReverseString.java) |
 | **Fri** | C | Week 1-2 Review | - | **Review Week 1-2** | - | 🔄 | - |
 | **Sat** | C | Practice Pointers | - | **Practice Pointers** | - | 🔄 | - |
 

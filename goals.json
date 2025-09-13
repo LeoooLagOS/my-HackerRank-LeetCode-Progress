@@ -11,8 +11,8 @@
     },
     "java": {
       "goal": 50,
-      "completed": 9,
-      "progress": 18.0,
+      "completed": 10,
+      "progress": 20.0,
       "last_practice": "26-08-2025"
     },
     "c": {
@@ -30,7 +30,7 @@
     },
     "leetcode": {
       "goal": 50,
-      "completed": 7,
+      "completed": 8,
       "progress": 0.0
     }
   },
@@ -39,14 +39,23 @@
     "longest": 2,
     "last_activity": "27-08-2025"
   },
-  "total_completed": 29,
+  "total_completed": 30,
   "metrics": {
     "total_time": "45m",
     "average_time_per_problem": "15m",
     "preferred_language": "Python",
-    "last_updated": "2025-09-13 09:37:41"
+    "last_updated": "2025-09-13 09:37:58"
   },
   "recent_activity": [
+    {
+      "date": "2025-09-13",
+      "time": "09:37:58",
+      "problem": "Reverse String",
+      "language": "Java",
+      "platform": "LeetCode",
+      "difficulty": "Easy",
+      "time_taken": "10m"
+    },
     {
       "date": "2025-09-13",
       "time": "09:37:41",
@@ -172,15 +181,6 @@
       "platform": "HackerRank",
       "difficulty": "Easy",
       "time_taken": "10m"
-    },
-    {
-      "date": "2025-09-11",
-      "time": "17:55:43",
-      "problem": "Reverse String",
-      "language": "Java",
-      "platform": "LeetCode",
-      "difficulty": "Easy",
-      "time_taken": "5m"
     }
   ],
   "start_date": "25-08-2025",
