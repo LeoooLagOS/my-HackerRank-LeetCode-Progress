@@ -26,7 +26,7 @@
 
 | Day | Language | Problem | Platform | Link | Difficulty | Status | Solution |
 |-----|----------|---------|----------|------|------------|--------|----------|
-| **Mon** | Python | Two Sum | LeetCode | [🔗](https://leetcode.com/problems/two-sum/) | Easy | ⬜ | [two-sum.py](leetcode/python/two-sum.py) |
+| **Mon** | Python | Two Sum | LeetCode | [🔗](https://leetcode.com/problems/two-sum/) | Easy | ✅ | [Solution](./leetcode/python/Two-Sum.py) |
 | **Tue** | Java | Two Sum | LeetCode | [🔗](https://leetcode.com/problems/two-sum/) | Easy | ⬜ | [two-sum.java](leetcode/java/two-sum.java) |
 | **Wed** | Python | Reverse String | LeetCode | [🔗](https://leetcode.com/problems/reverse-string/) | Easy | ⬜ | [reverse-string.py](leetcode/python/reverse-string.py) |
 | **Thu** | Java | Reverse String | LeetCode | [🔗](https://leetcode.com/problems/reverse-string/) | Easy | ⬜ | [reverse-string.java](leetcode/java/reverse-string.java) |
