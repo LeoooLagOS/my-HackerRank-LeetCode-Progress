@@ -70,7 +70,7 @@ else # Default to HackerRank
 fi
 
 # Find the exact line number of the unsolved problem
-LINE_NUM=$(grep -n "|\s*\*\*$CURRENT_DAY\*\*\s*|" PROGRESS.md | grep "|\s*$LANGUAGE\s*|" | grep "|\s*$PROBLEM_NAME\s*|" | grep "⬜" | cut -d: -f1)
+LINE_NUM=$(grep -n "|\s*$LANGUAGE\s*|" PROGRESS.md | grep "|\s*$PROBLEM_NAME\s*|" | grep "⬜" | head -n 1 | cut -d: -f1)
 
 # Check if we found a line number
 if [ -n "$LINE_NUM" ]; then
