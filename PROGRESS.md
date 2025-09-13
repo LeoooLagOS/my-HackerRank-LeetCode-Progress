@@ -16,7 +16,7 @@
 | Day | Language | Problem | Platform | Link | Status | Solution |
 |-----|----------|---------|----------|------|--------|----------|
 | **Mon** | Python | Python If-Else | HackerRank |  [🔗](https://www.hackerrank.com/challenges/py-if-else/problem) | ✅ | [Solution](./hackerrank/python/Python-If-Else.py) |
-| **Tue** | Java | Java If-Else | HackerRank | [🔗](https://www.hackerrank.com/challenges/java-if-else/problem) | ⬜ | [java-if-else.java](hackerrank/java/java_if_else.java) |
+| **Tue** | Java | Java If-Else | HackerRank | [🔗](https://www.hackerrank.com/challenges/java-if-else/problem) | ✅ | [Solution](./hackerrank/java/JavaIf-Else.java) |
 | **Wed** | Python | Division | HackerRank | [🔗](https://www.hackerrank.com/challenges/python-division/problem) | ✅ | [Solution](./hackerrank/python/Division.py) |
 | **Thu** | Java | Java Output Formatting | HackerRank | [🔗](https://www.hackerrank.com/challenges/java-output-formatting/problem) | ⬜ | [java-output-formatting.java](hackerrank/java/java-output-formatting.java) |
 | **Fri** | C | Sum & Difference of Two Numbers | HackerRank | [🔗](https://www.hackerrank.com/challenges/sum-numbers-c/problem) | ✅ | [sum-difference.c](hackerrank/c/sum-difference.c) |

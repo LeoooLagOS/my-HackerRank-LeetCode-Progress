@@ -71,3 +71,4 @@
 - ✅ **[09:34]** Completed Python: **Division** (Easy) - Time: 10m
 - ✅ **[09:35]** Completed Python: **Two Sum** (Easy) - Time: 10m
 - ✅ **[09:35]** Completed Python: **Reverse String** (Easy) - Time: 10m
+- ✅ **[09:36]** Completed Java: **Java If-Else** (Easy) - Time: 10m
