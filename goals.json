@@ -11,8 +11,8 @@
     },
     "java": {
       "goal": 50,
-      "completed": 10,
-      "progress": 20.0,
+      "completed": 11,
+      "progress": 22.0,
       "last_practice": "26-08-2025"
     },
     "c": {
@@ -30,7 +30,7 @@
     },
     "leetcode": {
       "goal": 50,
-      "completed": 9,
+      "completed": 10,
       "progress": 0.0
     }
   },
@@ -39,14 +39,23 @@
     "longest": 2,
     "last_activity": "27-08-2025"
   },
-  "total_completed": 33,
+  "total_completed": 34,
   "metrics": {
     "total_time": "45m",
     "average_time_per_problem": "15m",
     "preferred_language": "Python",
-    "last_updated": "2025-09-16 16:31:33"
+    "last_updated": "2025-09-16 19:48:07"
   },
   "recent_activity": [
+    {
+      "date": "2025-09-16",
+      "time": "19:48:07",
+      "problem": "Best Time to Buy/Sell Stock",
+      "language": "Java",
+      "platform": "LeetCode",
+      "difficulty": "Easy",
+      "time_taken": "15m"
+    },
     {
       "date": "2025-09-16",
       "time": "16:31:33",
@@ -167,15 +176,6 @@
     {
       "date": "2025-09-12",
       "time": "23:41:04",
-      "problem": "Sum & Difference of Two Numbers",
-      "language": "C",
-      "platform": "HackerRank",
-      "difficulty": "Easy",
-      "time_taken": "10m"
-    },
-    {
-      "date": "2025-09-12",
-      "time": "23:40:14",
       "problem": "Sum & Difference of Two Numbers",
       "language": "C",
       "platform": "HackerRank",
