@@ -39,7 +39,7 @@
 |-----|----------|---------|----------|------|------------|--------|----------|
 | **Mon** | Python | Valid Palindrome | LeetCode | [🔗](https://leetcode.com/problems/valid-palindrome/) | Easy | ✅ | [Solution](./leetcode/python/Valid-Palindrome.py) |
 | **Tue** | Java | Best Time to Buy/Sell Stock | LeetCode | [🔗](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | ✅ | [Solution](./leetcode/java/BestTimetoBuy/SellStock.java) |
-| **Wed** | Python | Maximum Subarray | LeetCode | [🔗](https://leetcode.com/problems/maximum-subarray/) | Easy | ✅ | [Solution](./leetcode/python/Maximum-Subarray.py) |
+| **Wed** | Python | Maximum Subarray | LeetCode | [🔗](https://leetcode.com/problems/maximum-subarray/) | Medium | ✅ | [Solution](./leetcode/python/Maximum-Subarray.py) |
 | **Thu** | Java | Contains Duplicate | LeetCode | [🔗](https://leetcode.com/problems/contains-duplicate/) | Easy | ⬜ | [contains-duplicate.java](leetcode/java/contains-duplicate.java) |
 | **Fri** | C | Pointers in C | HackerRank | [🔗](https://www.hackerrank.com/challenges/pointer-in-c/problem) | Easy | ⬜ | [pointers.c](hackerrank/c/pointers.c) |
 | **Sat** | C | Array Reversal | HackerRank | [🔗](https://www.hackerrank.com/challenges/reverse-array-c/problem) | Easy | ⬜ | [array-reversal.c](hackerrank/c/array-reversal.c) |
