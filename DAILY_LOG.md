@@ -86,3 +86,7 @@
 ## 2025-09-17
 - 📅 **Daily Summary**
 - ✅ **[14:51]** Completed Python: **Maximum Subarray** (Medium) - Time: 25m
+
+## 2025-09-18
+- 📅 **Daily Summary**
+- ✅ **[12:22]** Completed Java: **Contains Duplicate** (Easy) - Time: 10m

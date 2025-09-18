@@ -11,8 +11,8 @@
     },
     "java": {
       "goal": 50,
-      "completed": 11,
-      "progress": 22.0,
+      "completed": 12,
+      "progress": 24.0,
       "last_practice": "26-08-2025"
     },
     "c": {
@@ -30,7 +30,7 @@
     },
     "leetcode": {
       "goal": 50,
-      "completed": 11,
+      "completed": 12,
       "progress": 0.0
     }
   },
@@ -39,14 +39,23 @@
     "longest": 2,
     "last_activity": "27-08-2025"
   },
-  "total_completed": 35,
+  "total_completed": 36,
   "metrics": {
     "total_time": "45m",
     "average_time_per_problem": "15m",
     "preferred_language": "Python",
-    "last_updated": "2025-09-17 14:51:01"
+    "last_updated": "2025-09-18 12:22:06"
   },
   "recent_activity": [
+    {
+      "date": "2025-09-18",
+      "time": "12:22:06",
+      "problem": "Contains Duplicate",
+      "language": "Java",
+      "platform": "LeetCode",
+      "difficulty": "Easy",
+      "time_taken": "10m"
+    },
     {
       "date": "2025-09-17",
       "time": "14:51:01",
@@ -172,20 +181,11 @@
       "platform": "HackerRank",
       "difficulty": "Easy",
       "time_taken": "10m"
-    },
-    {
-      "date": "2025-09-12",
-      "time": "23:41:29",
-      "problem": "Sum & Difference of Two Numbers",
-      "language": "C",
-      "platform": "HackerRank",
-      "difficulty": "Easy",
-      "time_taken": "10m"
     }
   ],
   "start_date": "25-08-2025",
   "last_updated": "27-08-2025",
-  "current_streak": 13,
-  "last_activity": "2025-09-17",
-  "longest_streak": 13
+  "current_streak": 14,
+  "last_activity": "2025-09-18",
+  "longest_streak": 14
 }
