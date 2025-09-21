@@ -42,7 +42,7 @@
 | **Wed** | Python | Maximum Subarray | LeetCode | [🔗](https://leetcode.com/problems/maximum-subarray/) | Medium | ✅ | [Solution](./leetcode/python/Maximum-Subarray.py) |
 | **Thu** | Java | Contains Duplicate | LeetCode | [🔗](https://leetcode.com/problems/contains-duplicate/) | Easy | ✅ | [Solution](./leetcode/java/ContainsDuplicate.java) |
 | **Fri** | C | Pointers in C | HackerRank | [🔗](https://www.hackerrank.com/challenges/pointer-in-c/problem) | Easy | ✅ | [Solution](./hackerrank/c/Pointers-in-C.c) |
-| **Sat** | C | Array Reversal | HackerRank | [🔗](https://www.hackerrank.com/challenges/reverse-array-c/problem) | Easy | ⬜ | [array-reversal.c](hackerrank/c/array-reversal.c) |
+| **Sat** | C | Array Reversal | HackerRank | [🔗](https://www.hackerrank.com/challenges/reverse-array-c/problem) | Easy | ✅ | [Solution](./hackerrank/c/Array-Reversal.c) |
 
 ## 🗓️ **WEEK 5 - DATA STRUCTURES BEGINNER**
 
