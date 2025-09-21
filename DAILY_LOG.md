@@ -90,3 +90,7 @@
 ## 2025-09-18
 - 📅 **Daily Summary**
 - ✅ **[12:22]** Completed Java: **Contains Duplicate** (Easy) - Time: 10m
+
+## 2025-09-21
+- 📅 **Daily Summary**
+- ✅ **[01:33]** Completed C: **Pointers in C** (Easy) - Time: 15m

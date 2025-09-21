@@ -17,15 +17,15 @@
     },
     "c": {
       "goal": 30,
-      "completed": 12,
-      "progress": 40.0,
+      "completed": 13,
+      "progress": 43.3,
       "last_practice": "26-08-2025"
     }
   },
   "platforms": {
     "hackerrank": {
       "goal": 100,
-      "completed": 24,
+      "completed": 25,
       "progress": 3.0
     },
     "leetcode": {
@@ -39,14 +39,23 @@
     "longest": 2,
     "last_activity": "27-08-2025"
   },
-  "total_completed": 36,
+  "total_completed": 37,
   "metrics": {
     "total_time": "45m",
     "average_time_per_problem": "15m",
     "preferred_language": "Python",
-    "last_updated": "2025-09-18 12:22:06"
+    "last_updated": "2025-09-21 01:33:10"
   },
   "recent_activity": [
+    {
+      "date": "2025-09-21",
+      "time": "01:33:10",
+      "problem": "Pointers in C",
+      "language": "C",
+      "platform": "HackerRank",
+      "difficulty": "Easy",
+      "time_taken": "15m"
+    },
     {
       "date": "2025-09-18",
       "time": "12:22:06",
@@ -172,20 +181,11 @@
       "platform": "HackerRank",
       "difficulty": "Easy",
       "time_taken": "10m"
-    },
-    {
-      "date": "2025-09-12",
-      "time": "23:41:49",
-      "problem": "Sum & Difference of Two Numbers",
-      "language": "C",
-      "platform": "HackerRank",
-      "difficulty": "Easy",
-      "time_taken": "10m"
     }
   ],
   "start_date": "25-08-2025",
   "last_updated": "27-08-2025",
-  "current_streak": 14,
-  "last_activity": "2025-09-18",
-  "longest_streak": 14
+  "current_streak": 15,
+  "last_activity": "2025-09-21",
+  "longest_streak": 15
 }

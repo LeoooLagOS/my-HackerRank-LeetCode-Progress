@@ -41,7 +41,7 @@
 | **Tue** | Java | Best Time to Buy/Sell Stock | LeetCode | [🔗](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | ✅ | [Solution](./leetcode/java/BestTimetoBuy/SellStock.java) |
 | **Wed** | Python | Maximum Subarray | LeetCode | [🔗](https://leetcode.com/problems/maximum-subarray/) | Medium | ✅ | [Solution](./leetcode/python/Maximum-Subarray.py) |
 | **Thu** | Java | Contains Duplicate | LeetCode | [🔗](https://leetcode.com/problems/contains-duplicate/) | Easy | ✅ | [Solution](./leetcode/java/ContainsDuplicate.java) |
-| **Fri** | C | Pointers in C | HackerRank | [🔗](https://www.hackerrank.com/challenges/pointer-in-c/problem) | Easy | ⬜ | [pointers.c](hackerrank/c/pointers.c) |
+| **Fri** | C | Pointers in C | HackerRank | [🔗](https://www.hackerrank.com/challenges/pointer-in-c/problem) | Easy | ✅ | [Solution](./hackerrank/c/Pointers-in-C.c) |
 | **Sat** | C | Array Reversal | HackerRank | [🔗](https://www.hackerrank.com/challenges/reverse-array-c/problem) | Easy | ⬜ | [array-reversal.c](hackerrank/c/array-reversal.c) |
 
 ## 🗓️ **WEEK 5 - DATA STRUCTURES BEGINNER**
