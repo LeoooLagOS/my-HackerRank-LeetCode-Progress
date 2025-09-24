@@ -48,7 +48,7 @@
 
 | Day | Language | Problem | Platform | Link | Difficulty | Status | Solution |
 |-----|----------|---------|----------|------|------------|--------|----------|
-| **Mon** | Python | Lists | HackerRank | [🔗](https://www.hackerrank.com/challenges/python-lists/problem) | Easy | ⬜ | [lists.py](hackerrank/python/lists.py) |
+| **Mon** | Python | Lists | HackerRank | [🔗](https://www.hackerrank.com/challenges/python-lists/problem) | Easy | ✅ | [Solution](./hackerrank/python/Lists.py) |
 | **Tue** | Java | Array List | HackerRank | [🔗](https://www.hackerrank.com/challenges/java-arraylist/problem) | Easy | ⬜ | [arraylist.java](hackerrank/java/arraylist.java) |
 | **Wed** | Python | Tuples | HackerRank | [🔗](https://www.hackerrank.com/challenges/python-tuples/problem) | Easy | ⬜ | [tuples.py](hackerrank/python/tuples.py) |
 | **Thu** | Java | 1D Array | HackerRank | [🔗](https://www.hackerrank.com/challenges/java-1d-array-introduction/problem) | Easy | ⬜ | [array1d.java](hackerrank/java/array1d.java) |
