@@ -5,8 +5,8 @@
   "languages": {
     "python": {
       "goal": 50,
-      "completed": 14,
-      "progress": 28.0,
+      "completed": 15,
+      "progress": 30.0,
       "last_practice": "27-08-2025"
     },
     "java": {
@@ -25,7 +25,7 @@
   "platforms": {
     "hackerrank": {
       "goal": 100,
-      "completed": 28,
+      "completed": 29,
       "progress": 3.0
     },
     "leetcode": {
@@ -39,14 +39,23 @@
     "longest": 2,
     "last_activity": "27-08-2025"
   },
-  "total_completed": 40,
+  "total_completed": 41,
   "metrics": {
     "total_time": "45m",
     "average_time_per_problem": "15m",
     "preferred_language": "Python",
-    "last_updated": "2025-09-24 11:47:39"
+    "last_updated": "2025-09-30 22:31:30"
   },
   "recent_activity": [
+    {
+      "date": "2025-09-30",
+      "time": "22:31:30",
+      "problem": "Tuples",
+      "language": "Python",
+      "platform": "HackerRank",
+      "difficulty": "Easy",
+      "time_taken": "5m"
+    },
     {
       "date": "2025-09-24",
       "time": "11:47:39",
@@ -172,20 +181,11 @@
       "platform": "LeetCode",
       "difficulty": "Easy",
       "time_taken": "10m"
-    },
-    {
-      "date": "2025-09-13",
-      "time": "09:35:14",
-      "problem": "Two Sum",
-      "language": "Python",
-      "platform": "LeetCode",
-      "difficulty": "Easy",
-      "time_taken": "10m"
     }
   ],
   "start_date": "25-08-2025",
   "last_updated": "27-08-2025",
-  "current_streak": 16,
-  "last_activity": "2025-09-24",
-  "longest_streak": 16
+  "current_streak": 17,
+  "last_activity": "2025-09-30",
+  "longest_streak": 17
 }
