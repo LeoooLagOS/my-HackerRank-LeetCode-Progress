@@ -51,7 +51,7 @@
 | **Mon** | Python | Lists | HackerRank | [🔗](https://www.hackerrank.com/challenges/python-lists/problem) | Easy | ✅ | [Solution](./hackerrank/python/Lists.py) |
 | **Tue** | Java | Array List | HackerRank | [🔗](https://www.hackerrank.com/challenges/java-arraylist/problem) | Easy | ✅ | [Solution](./hackerrank/java/ArrayList.java) |
 | **Wed** | Python | Tuples | HackerRank | [🔗](https://www.hackerrank.com/challenges/python-tuples/problem) | Easy | ✅ | [Solution](./hackerrank/python/Tuples.py) |
-| **Thu** | Java | 1D Array | HackerRank | [🔗](https://www.hackerrank.com/challenges/java-1d-array-introduction/problem) | Easy | ⬜ | [array1d.java](hackerrank/java/array1d.java) |
+| **Thu** | Java | 1D Array | HackerRank | [🔗](https://www.hackerrank.com/challenges/java-1d-array-introduction/problem) | Easy | ✅ | [Solution](./hackerrank/java/1DArray.java) |
 | **Fri** | C | 1D Arrays in C | HackerRank | [🔗](https://www.hackerrank.com/challenges/1d-arrays-in-c/problem) | Easy | ⬜ | [arrays1d.c](hackerrank/c/arrays1d.c) |
 | **Sat** | C | Dynamic Array in C | HackerRank | [🔗](https://www.hackerrank.com/challenges/dynamic-array-in-c/problem) | Medium | ⬜ | [dynamic-array.c](hackerrank/c/dynamic-array.c) |
 
