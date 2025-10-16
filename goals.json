@@ -5,8 +5,8 @@
   "languages": {
     "python": {
       "goal": 50,
-      "completed": 15,
-      "progress": 30.0,
+      "completed": 16,
+      "progress": 32.0,
       "last_practice": "27-08-2025"
     },
     "java": {
@@ -25,7 +25,7 @@
   "platforms": {
     "hackerrank": {
       "goal": 100,
-      "completed": 31,
+      "completed": 32,
       "progress": 3.0
     },
     "leetcode": {
@@ -39,14 +39,23 @@
     "longest": 2,
     "last_activity": "27-08-2025"
   },
-  "total_completed": 43,
+  "total_completed": 44,
   "metrics": {
     "total_time": "45m",
     "average_time_per_problem": "15m",
     "preferred_language": "Python",
-    "last_updated": "2025-10-07 16:37:52"
+    "last_updated": "2025-10-15 23:06:06"
   },
   "recent_activity": [
+    {
+      "date": "2025-10-15",
+      "time": "23:06:06",
+      "problem": "String Validators",
+      "language": "Python",
+      "platform": "HackerRank",
+      "difficulty": "Easy",
+      "time_taken": "5m"
+    },
     {
       "date": "2025-10-07",
       "time": "16:37:52",
@@ -172,20 +181,11 @@
       "platform": "LeetCode",
       "difficulty": "Easy",
       "time_taken": "10m"
-    },
-    {
-      "date": "2025-09-13",
-      "time": "09:37:41",
-      "problem": "Two Sum",
-      "language": "Java",
-      "platform": "LeetCode",
-      "difficulty": "Easy",
-      "time_taken": "10m"
     }
   ],
   "start_date": "25-08-2025",
   "last_updated": "27-08-2025",
-  "current_streak": 18,
-  "last_activity": "2025-10-07",
-  "longest_streak": 18
+  "current_streak": 19,
+  "last_activity": "2025-10-15",
+  "longest_streak": 19
 }

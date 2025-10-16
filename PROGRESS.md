@@ -59,7 +59,7 @@
 
 | Day | Language | Problem | Platform | Link | Difficulty | Status | Solution |
 |-----|----------|---------|----------|------|------------|--------|----------|
-| **Mon** | Python | String Validators | HackerRank | [🔗](https://www.hackerrank.com/challenges/string-validators/problem) | Easy | ⬜ | [string-validators.py](hackerrank/python/string-validators.py) |
+| **Mon** | Python | String Validators | HackerRank | [🔗](https://www.hackerrank.com/challenges/string-validators/problem) | Easy | ✅ | [Solution](./hackerrank/python/String-Validators.py) |
 | **Tue** | Java | Strings Introduction | HackerRank | [🔗](https://www.hackerrank.com/challenges/java-strings-introduction/problem) | Easy | ⬜ | [strings-intro.java](hackerrank/java/strings-intro.java) |
 | **Wed** | Python | Text Wrap | HackerRank | [🔗](https://www.hackerrank.com/challenges/text-wrap/problem) | Easy | ⬜ | [text-wrap.py](hackerrank/python/text-wrap.py) |
 | **Thu** | Java | Substring | HackerRank | [🔗](https://www.hackerrank.com/challenges/java-substring/problem) | Easy | ⬜ | [substring.java](hackerrank/java/substring.java) |
