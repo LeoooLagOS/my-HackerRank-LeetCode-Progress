@@ -5,8 +5,8 @@
   "languages": {
     "python": {
       "goal": 50,
-      "completed": 16,
-      "progress": 32.0,
+      "completed": 17,
+      "progress": 34.0,
       "last_practice": "27-08-2025"
     },
     "java": {
@@ -25,7 +25,7 @@
   "platforms": {
     "hackerrank": {
       "goal": 100,
-      "completed": 32,
+      "completed": 33,
       "progress": 3.0
     },
     "leetcode": {
@@ -39,14 +39,23 @@
     "longest": 2,
     "last_activity": "27-08-2025"
   },
-  "total_completed": 44,
+  "total_completed": 45,
   "metrics": {
     "total_time": "45m",
     "average_time_per_problem": "15m",
     "preferred_language": "Python",
-    "last_updated": "2025-10-15 23:06:06"
+    "last_updated": "2025-10-15 23:13:10"
   },
   "recent_activity": [
+    {
+      "date": "2025-10-15",
+      "time": "23:13:10",
+      "problem": "Text Wrap",
+      "language": "Python",
+      "platform": "HackerRank",
+      "difficulty": "Easy",
+      "time_taken": "5m"
+    },
     {
       "date": "2025-10-15",
       "time": "23:06:06",
@@ -170,15 +179,6 @@
       "problem": "Playing With Characters",
       "language": "C",
       "platform": "HackerRank",
-      "difficulty": "Easy",
-      "time_taken": "10m"
-    },
-    {
-      "date": "2025-09-13",
-      "time": "09:37:58",
-      "problem": "Reverse String",
-      "language": "Java",
-      "platform": "LeetCode",
       "difficulty": "Easy",
       "time_taken": "10m"
     }
