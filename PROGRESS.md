@@ -62,7 +62,7 @@
 | **Mon** | Python | String Validators | HackerRank | [🔗](https://www.hackerrank.com/challenges/string-validators/problem) | Easy | ✅ | [Solution](./hackerrank/python/String-Validators.py) |
 | **Tue** | Java | Strings Introduction | HackerRank | [🔗](https://www.hackerrank.com/challenges/java-strings-introduction/problem) | Easy | ✅ | [Solution](./hackerrank/java/StringsIntroduction.java) |
 | **Wed** | Python | Text Wrap | HackerRank | [🔗](https://www.hackerrank.com/challenges/text-wrap/problem) | Easy | ✅ | [Solution](./hackerrank/python/Text-Wrap.py) |
-| **Thu** | Java | Substring | HackerRank | [🔗](https://www.hackerrank.com/challenges/java-substring/problem) | Easy | ⬜ | [substring.java](hackerrank/java/substring.java) |
+| **Thu** | Java | Substring | HackerRank | [🔗](https://www.hackerrank.com/challenges/java-substring/problem) | Easy | ✅ | [Solution](./hackerrank/java/Substring.java) |
 | **Fri** | C | Digit Frequency | HackerRank | [🔗](https://www.hackerrank.com/challenges/frequency-of-digits-1/problem) | Easy | ⬜ | [digit-frequency.c](hackerrank/c/digit-frequency.c) |
 | **Sat** | C | String Sorting | HackerRank | [🔗](https://www.hackerrank.com/challenges/sorting-array-of-strings/problem) | Medium | ⬜ | [string-sorting.c](hackerrank/c/string-sorting.c) |
 
