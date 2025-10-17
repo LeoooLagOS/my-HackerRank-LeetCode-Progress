@@ -11,8 +11,8 @@
     },
     "java": {
       "goal": 50,
-      "completed": 14,
-      "progress": 28.0,
+      "completed": 15,
+      "progress": 30.0,
       "last_practice": "26-08-2025"
     },
     "c": {
@@ -25,7 +25,7 @@
   "platforms": {
     "hackerrank": {
       "goal": 100,
-      "completed": 33,
+      "completed": 34,
       "progress": 3.0
     },
     "leetcode": {
@@ -39,14 +39,23 @@
     "longest": 2,
     "last_activity": "27-08-2025"
   },
-  "total_completed": 45,
+  "total_completed": 46,
   "metrics": {
     "total_time": "45m",
     "average_time_per_problem": "15m",
     "preferred_language": "Python",
-    "last_updated": "2025-10-15 23:13:10"
+    "last_updated": "2025-10-16 22:22:34"
   },
   "recent_activity": [
+    {
+      "date": "2025-10-16",
+      "time": "22:22:34",
+      "problem": "Strings Introduction",
+      "language": "Java",
+      "platform": "HackerRank",
+      "difficulty": "Easy",
+      "time_taken": "12m"
+    },
     {
       "date": "2025-10-15",
       "time": "23:13:10",
@@ -172,20 +181,11 @@
       "platform": "HackerRank",
       "difficulty": "Easy",
       "time_taken": "15m"
-    },
-    {
-      "date": "2025-09-13",
-      "time": "09:43:13",
-      "problem": "Playing With Characters",
-      "language": "C",
-      "platform": "HackerRank",
-      "difficulty": "Easy",
-      "time_taken": "10m"
     }
   ],
   "start_date": "25-08-2025",
   "last_updated": "27-08-2025",
-  "current_streak": 19,
-  "last_activity": "2025-10-15",
-  "longest_streak": 19
+  "current_streak": 20,
+  "last_activity": "2025-10-16",
+  "longest_streak": 20
 }
